@@ -75,6 +75,7 @@ namespace APISistemaVenta.SistemaVenta.DAL.Repositorios
             try
             {
                 IQueryable<TModelo> queryModelo = filtro == null ? _dbcontext.Set<TModelo>() : _dbcontext.Set<TModelo>().Where(filtro);
+                await Task.Yield();
                 return queryModelo;
             }
             catch

@@ -60,7 +60,6 @@ namespace APISistemaVenta.SistemaVenta.DAL.Repositorios
                     throw;
                 }
                 return ventaGenerada;
-
             }
         }
     }
