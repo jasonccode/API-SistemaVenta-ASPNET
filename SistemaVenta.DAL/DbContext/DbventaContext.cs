@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using APISistemaVenta.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace APISistemaVenta.Models;
 
-public partial class DbventaContext : DbContext
+namespace APISistemaVenta.SistemaVenta.DAL.DbContext;
+
+public partial class DbventaContext : Microsoft.EntityFrameworkCore.DbContext
 {
     public DbventaContext()
     {

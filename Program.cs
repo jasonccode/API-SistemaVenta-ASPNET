@@ -1,5 +1,5 @@
 
-using APISistemaVenta.Models;
+using APISistemaVenta.SistemaVenta.DAL.DbContext;
 
 var builder = WebApplication.CreateBuilder(args);
 
