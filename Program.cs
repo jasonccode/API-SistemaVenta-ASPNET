@@ -1,4 +1,5 @@
-using APISistemaVenta.SistemaVenta.Model;
+
+using APISistemaVenta.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //Conexion postgres
-builder.Services.AddNpgsql<DbVentaContext>(builder.Configuration.GetConnectionString("Postgres"));
+builder.Services.AddNpgsql<DbventaContext>(builder.Configuration.GetConnectionString("Postgres"));
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 

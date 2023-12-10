@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace APISistemaVenta.Models;
 
-public partial class DetalleVentum
+public partial class DetalleVenta
 {
     public int IdDetalleVenta { get; set; }
 
@@ -19,5 +19,5 @@ public partial class DetalleVentum
 
     public virtual Producto? IdProductoNavigation { get; set; }
 
-    public virtual Ventum? IdVentaNavigation { get; set; }
+    public virtual Venta? IdVentaNavigation { get; set; }
 }
