@@ -1,5 +1,7 @@
 
 using APISistemaVenta.SistemaVenta.DAL.DbContext;
+using APISistemaVenta.SistemaVenta.IOC;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +11,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 //Conexion postgres
-builder.Services.AddNpgsql<DbventaContext>(builder.Configuration.GetConnectionString("Postgres"));
+builder.Services.InyectarDependencias(builder.Configuration);
+//builder.Services.AddNpgsql<DbventaContext>(builder.Configuration.GetConnectionString("Postgres"));
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 

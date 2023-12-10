@@ -1,12 +1,17 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
+using APISistemaVenta.SistemaVenta.DAL.DbContext;
+using Microsoft.EntityFrameworkCore;
 
 namespace APISistemaVenta.SistemaVenta.IOC
 {
-    public class Dependencia
+    public static class Dependencia
     {
-        
+        public static void InyectarDependencias(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddDbContext<DbventaContext>(options =>
+            {
+                options.UseNpgsql(configuration.GetConnectionString("Postgres"));
+            });
+        }
     }
 }
