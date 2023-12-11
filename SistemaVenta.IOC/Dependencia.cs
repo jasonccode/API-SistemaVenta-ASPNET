@@ -1,4 +1,6 @@
 
+using APISistemaVenta.SistemaVenta.BLL.Servicios;
+using APISistemaVenta.SistemaVenta.BLL.Servicios.Contrato;
 using APISistemaVenta.SistemaVenta.DAL.DbContext;
 using APISistemaVenta.SistemaVenta.DAL.Repositorios;
 using APISistemaVenta.SistemaVenta.DAL.Repositorios.Contrato;
@@ -12,6 +14,7 @@ namespace APISistemaVenta.SistemaVenta.IOC
     {
         public static void InyectarDependencias(this IServiceCollection services, IConfiguration configuration)
         {
+            // Configuración de DbContext para la conexión a la base de datos utilizando Npgsql.
             services.AddDbContext<DbventaContext>(options =>
             {
                 options.UseNpgsql(configuration.GetConnectionString("Postgres"));
@@ -25,6 +28,17 @@ namespace APISistemaVenta.SistemaVenta.IOC
 
             // Configurar AutoMapper usando el perfil definido en AutoMapperProfile.
             services.AddAutoMapper(typeof(AutoMapperProfile));
+
+            // Registro de servicios específicos del dominio mediante inyección de dependencias.
+            services.AddScoped<IRolService, RolService>();
+            services.AddScoped<IUsuarioService, UsuarioService>();
+            services.AddScoped<ICategoriaService, CategoriaService>();
+            services.AddScoped<IProductoService, ProductoService>();
+            services.AddScoped<IVentaService, VentaService>();
+            services.AddScoped<IDashBoardService, DasboardService>();
+            services.AddScoped<IMenuService, MenuService>();
+
+
         }
     }
 }
