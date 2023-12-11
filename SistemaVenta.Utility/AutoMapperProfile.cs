@@ -5,6 +5,7 @@ using AutoMapper;
 
 namespace APISistemaVenta.SistemaVenta.Utility
 {
+    //Perfil de AutoMapper que define los mapeos entre las entidades del sistema y sus respectivos DTO.
     public class AutoMapperProfile : Profile
     {
         public AutoMapperProfile()
