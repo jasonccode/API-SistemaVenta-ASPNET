@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "lFICumzljj+gm3Ilm+rEVIbAuAJaHwDP2FGii/ZUAlZ0igcu5MKYMJ8lVUE49I/IkxrK1Rk/QAcdEslNCAMo2w==",
+  "dgSpecHash": "K/CuuDRkv3tIro0JOzryj1dB36QFfsjawdI3Mc/ZNAFhYWq+ZEeusnMooAtfszAZPbqZhUSzMkdWrp7sTCoMmg==",
   "success": true,
   "projectFilePath": "/Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/APISistemaVenta.csproj",
   "expectedPackageFiles": [
+    "/Users/jason/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/jason/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/jason/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/jason/.nuget/packages/microsoft.aspnetcore.openapi/7.0.14/microsoft.aspnetcore.openapi.7.0.14.nupkg.sha512",
+    "/Users/jason/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/jason/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "/Users/jason/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "/Users/jason/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.5/microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",

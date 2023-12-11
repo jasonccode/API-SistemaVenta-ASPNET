@@ -41,3 +41,5 @@
 /Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/obj/Debug/net7.0/APISistemaVenta.pdb
 /Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/obj/Debug/net7.0/APISistemaVenta.genruntimeconfig.cache
 /Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/obj/Debug/net7.0/ref/APISistemaVenta.dll
+/Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/bin/Debug/net7.0/AutoMapper.dll
+/Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -2,6 +2,7 @@
 using APISistemaVenta.SistemaVenta.DAL.DbContext;
 using APISistemaVenta.SistemaVenta.DAL.Repositorios;
 using APISistemaVenta.SistemaVenta.DAL.Repositorios.Contrato;
+using APISistemaVenta.SistemaVenta.Utility;
 using Microsoft.EntityFrameworkCore;
 
 namespace APISistemaVenta.SistemaVenta.IOC
@@ -21,6 +22,9 @@ namespace APISistemaVenta.SistemaVenta.IOC
 
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IVentaRepository, VentaRepository>();
+
+            // Configurar AutoMapper usando el perfil definido en AutoMapperProfile.
+            services.AddAutoMapper(typeof(AutoMapperProfile));
         }
     }
 }
