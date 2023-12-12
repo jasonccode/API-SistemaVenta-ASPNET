@@ -17,6 +17,8 @@ builder.Services.InyectarDependencias(builder.Configuration);
 //builder.Services.AddNpgsql<DbventaContext>(builder.Configuration.GetConnectionString("Postgres"));
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
+
+// Configure Cors
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("ConfigurationCors", app =>
