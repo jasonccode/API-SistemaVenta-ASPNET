@@ -43,3 +43,9 @@
 /Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/obj/Debug/net7.0/ref/APISistemaVenta.dll
 /Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/bin/Debug/net7.0/AutoMapper.dll
 /Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/bin/Debug/net7.0/AppSistemaVenta/angular.json
+/Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/bin/Debug/net7.0/AppSistemaVenta/package-lock.json
+/Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/bin/Debug/net7.0/AppSistemaVenta/package.json
+/Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/bin/Debug/net7.0/AppSistemaVenta/tsconfig.app.json
+/Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/bin/Debug/net7.0/AppSistemaVenta/tsconfig.json
+/Users/jason/Desktop/Aplicaciones/SistemaVentas-ASP.NET-Angular/APISistemaVenta/bin/Debug/net7.0/AppSistemaVenta/tsconfig.spec.json
