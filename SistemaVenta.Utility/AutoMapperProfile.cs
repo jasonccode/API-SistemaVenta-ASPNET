@@ -25,6 +25,7 @@ namespace APISistemaVenta.SistemaVenta.Utility
             )
             .ForMember(destino => destino.EsActivo,
             opt => opt.MapFrom(origen => origen.EsActivo == true ? 1 : 0)
+            // opt => opt.MapFrom(origen => origen.EsActivo)
             );
 
             CreateMap<Usuario, SesionDTO>()
@@ -38,6 +39,8 @@ namespace APISistemaVenta.SistemaVenta.Utility
             )
             .ForMember(destino => destino.EsActivo,
             opt => opt.MapFrom(origen => origen.EsActivo == 1 ? true : false)
+                    //opt => opt.MapFrom(origen => origen.EsActivo)
+
             );
             #endregion Usuario
 
