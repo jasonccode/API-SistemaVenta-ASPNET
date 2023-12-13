@@ -9,6 +9,6 @@ namespace APISistemaVenta.SistemaVenta.DTO
 
         public string? Correo { get; set; }
 
-        public int? RolDescripcion { get; set; }
+        public string? RolDescripcion { get; set; }
     }
 }
