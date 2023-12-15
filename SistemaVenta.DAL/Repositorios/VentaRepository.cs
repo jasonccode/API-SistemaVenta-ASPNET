@@ -26,6 +26,8 @@ namespace APISistemaVenta.SistemaVenta.DAL.Repositorios
                     {
 
                         Producto producto_encontrado = _dbcontext.Productos.Where(p => p.IdProducto == dv.IdProducto).First();
+                        producto_encontrado.Stock=producto_encontrado.Stock - dv.Cantidad;
+
                         _dbcontext.Productos.Update(producto_encontrado);
                     }
                     await _dbcontext.SaveChangesAsync();
