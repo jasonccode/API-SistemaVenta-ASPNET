@@ -28,17 +28,17 @@ Se concluye la creación de la API REST explicando las operaciones finales relac
 
 ## Estructura del Proyecto
 
--SistemaVenta.API: Contiene los controladores y configuraciones de la API.
--SistemaVenta.BLL: Capa de lógica de negocios que contiene la implementación de servicios.
--SistemaVenta.Utility: Contiene utilidades y funciones comunes.
--SistemaVenta.DTO: Capa de Transferencia de Datos que define los objetos utilizados en la comunicación.
--SistemaVenta.DAL: Capa de Acceso a Datos que contiene los repositorios para interactuar con la base de datos.
--SistemaVenta.IOC: Configuración de la Inyección de Dependencias.
--SistemaVenta.Model: Define los modelos de datos.
--APISistemaVenta.csproj: Proyecto principal de la API.
--APISistemaVenta.sln: Solución del proyecto.
--README.md: Documentación del proyecto (este archivo).
--Program.cs: Punto de entrada de la aplicación.
--appsettings.json: Configuración principal de la aplicación.
--appsettings.Development.json: Configuración específica para entornos de desarrollo.
--Properties: Directorio que contiene archivos de configuración y propiedades.
+- SistemaVenta.API: Contiene los controladores y configuraciones de la API.
+- SistemaVenta.BLL: Capa de lógica de negocios que contiene la implementación de servicios.
+- SistemaVenta.Utility: Contiene utilidades y funciones comunes.
+- SistemaVenta.DTO: Capa de Transferencia de Datos que define los objetos utilizados en la comunicación.
+- SistemaVenta.DAL: Capa de Acceso a Datos que contiene los repositorios para interactuar con la base de datos.
+- SistemaVenta.IOC: Configuración de la Inyección de Dependencias.
+- SistemaVenta.Model: Define los modelos de datos.
+- APISistemaVenta.csproj: Proyecto principal de la API.
+- APISistemaVenta.sln: Solución del proyecto.
+- README.md: Documentación del proyecto (este archivo).
+- Program.cs: Punto de entrada de la aplicación.
+- appsettings.json: Configuración principal de la aplicación.
+- appsettings.Development.json: Configuración específica para entornos de desarrollo.
+- Properties: Directorio que contiene archivos de configuración y propiedades.
