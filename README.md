@@ -41,3 +41,7 @@ Se concluye la creación de la API REST con las operaciones finales relacionadas
 - appsettings.json: Configuración principal de la aplicación.
 - appsettings.Development.json: Configuración específica para entornos de desarrollo.
 - Properties: Directorio que contiene archivos de configuración y propiedades.
+  Imagen de swagger
+<img width="747" alt="api" src="https://github.com/jasonccode/API-SistemaVenta-ASPNET/assets/105800226/551297dd-3feb-49c6-b11f-2624fde41cb2">
+Imagen Base Datos
+![Diagrama Tablas](https://github.com/jasonccode/API-SistemaVenta-ASPNET/assets/105800226/aa7e72aa-7209-4473-8843-6368a7445c76)
