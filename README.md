@@ -43,7 +43,7 @@ Se concluye la creación de la API REST con las operaciones finales relacionadas
 - Properties: Directorio que contiene archivos de configuración y propiedades.
   
 Imagen Base Datos
-<img width="300" alt="api" src="https://github.com/jasonccode/API-SistemaVenta-ASPNET/assets/105800226/9443b811-3571-4922-a90c-b16eb4528642">
+<img style="width: 400px; height: auto;" alt="api" src="https://github.com/jasonccode/API-SistemaVenta-ASPNET/assets/105800226/9443b811-3571-4922-a90c-b16eb4528642">
 
 Imagen de swagger
-<img width="300" alt="api" src="https://github.com/jasonccode/API-SistemaVenta-ASPNET/assets/105800226/551297dd-3feb-49c6-b11f-2624fde41cb2">
+<img style="width: 400px; height: auto;" alt="api" src="https://github.com/jasonccode/API-SistemaVenta-ASPNET/assets/105800226/551297dd-3feb-49c6-b11f-2624fde41cb2">
