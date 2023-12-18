@@ -1,28 +1,44 @@
-# AppSistemaVenta
+# API Sistema de Ventas ASP.NET Core
+Este proyecto es un sistema de ventas desarrollado con las tecnologías Angular y ASP.NET Core 7. La aplicación consta de una API REST construida en ASP.NET Core 7 que maneja las operaciones de registro de usuarios, gestión de productos, ventas y generación de informes. Además, se ha desarrollado una interfaz de usuario moderna utilizando Angular Material en el repositorio https://github.com/jasonccode/API-SistemaVenta-ASPNET
 
+Contenido
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+## 1. Presentación, Inicio y Estructura - API REST
+1.1 Presentación y Base de Datos
+En esta sección, se introduce el proyecto y se presenta la estructura del sistema. También se describe la base de datos utilizada, que está implementada en PostgreSQL.
 
-## Development server
+### 1.2 Creación de API REST y su Estructura
+Se explica cómo se crea la API REST en ASP.NET Core 7. Se detallan los pasos para configurar los controladores, rutas y se muestra la estructura general de la aplicación.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 2. Desarrollo Capa DAL - API REST
+### 2.1 Implementación de Repositorios
+En esta fase, se realiza la implementación de la capa de acceso a datos (DAL) mediante la creación de repositorios. Se describen los métodos necesarios para interactuar con la base de datos.
 
-## Code scaffolding
+### 3. Desarrollo Capa DTO y Utility - API REST
+### 3.1 Implementación de DTOs y AutoMapper
+Se introduce la capa de Transferencia de Datos (DTO) y la utilidad AutoMapper. Se explican los DTOs utilizados para la comunicación entre la API y la interfaz de usuario y cómo se realiza el mapeo de entidades.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 4. Desarrollo Capa BLL - API REST
+### 4.1 Implementación de Servicios
+En esta sección, se desarrolla la capa de lógica de negocios (BLL) mediante la implementación de servicios. Se detallan las operaciones de negocio relacionadas con usuarios, productos y ventas.
 
-## Build
+### 5. Desarrollo Capa API - Final de Creación API REST
+### 5.1 Implementación de APIs
+Se concluye la creación de la API REST explicando las operaciones finales relacionadas con usuarios, productos y ventas. Se revisa la funcionalidad completa de la API antes de pasar al siguiente paso.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Estructura del Proyecto
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-SistemaVenta.API: Contiene los controladores y configuraciones de la API.
+-SistemaVenta.BLL: Capa de lógica de negocios que contiene la implementación de servicios.
+-SistemaVenta.Utility: Contiene utilidades y funciones comunes.
+-SistemaVenta.DTO: Capa de Transferencia de Datos que define los objetos utilizados en la comunicación.
+-SistemaVenta.DAL: Capa de Acceso a Datos que contiene los repositorios para interactuar con la base de datos.
+-SistemaVenta.IOC: Configuración de la Inyección de Dependencias.
+-SistemaVenta.Model: Define los modelos de datos.
+-APISistemaVenta.csproj: Proyecto principal de la API.
+-APISistemaVenta.sln: Solución del proyecto.
+-README.md: Documentación del proyecto (este archivo).
+-Program.cs: Punto de entrada de la aplicación.
+-appsettings.json: Configuración principal de la aplicación.
+-appsettings.Development.json: Configuración específica para entornos de desarrollo.
+-Properties: Directorio que contiene archivos de configuración y propiedades.
