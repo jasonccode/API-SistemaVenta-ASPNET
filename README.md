@@ -1,14 +1,13 @@
 # API Sistema de Ventas ASP.NET Core
 Este proyecto es un sistema de ventas desarrollado con las tecnologías Angular y ASP.NET Core 7. La aplicación consta de una API REST construida en ASP.NET Core 7 que maneja las operaciones de registro de usuarios, gestión de productos, ventas y generación de informes. Además, se ha desarrollado una interfaz de usuario moderna utilizando Angular Material en el repositorio https://github.com/jasonccode/API-SistemaVenta-ASPNET
 
-Contenido
+## Contenido
 
-## 1. Presentación, Inicio y Estructura - API REST
-1.1 Presentación y Base de Datos
-En esta sección, se introduce el proyecto y se presenta la estructura del sistema. También se describe la base de datos utilizada, que está implementada en PostgreSQL.
+## 1. Inicio y Estructura - API REST
+1.1 Creación de la Base de Datos que está implementada en PostgreSQL.
 
 ### 1.2 Creación de API REST y su Estructura
-Se explica cómo se crea la API REST en ASP.NET Core 7. Se detallan los pasos para configurar los controladores, rutas y se muestra la estructura general de la aplicación.
+Se crea la API REST en ASP.NET Core 7. Se configura los controladores, rutas y la estructura general de la aplicación.
 
 ### 2. Desarrollo Capa DAL - API REST
 ### 2.1 Implementación de Repositorios
@@ -20,11 +19,11 @@ Se introduce la capa de Transferencia de Datos (DTO) y la utilidad AutoMapper. S
 
 ### 4. Desarrollo Capa BLL - API REST
 ### 4.1 Implementación de Servicios
-En esta sección, se desarrolla la capa de lógica de negocios (BLL) mediante la implementación de servicios. Se detallan las operaciones de negocio relacionadas con usuarios, productos y ventas.
+En este paso, se desarrolla la capa de lógica de negocios (BLL) mediante la implementación de servicios. Se detallan las operaciones de negocio relacionadas con usuarios, productos y ventas.
 
 ### 5. Desarrollo Capa API - Final de Creación API REST
 ### 5.1 Implementación de APIs
-Se concluye la creación de la API REST explicando las operaciones finales relacionadas con usuarios, productos y ventas. Se revisa la funcionalidad completa de la API antes de pasar al siguiente paso.
+Se concluye la creación de la API REST con las operaciones finales relacionadas con usuarios, productos y ventas. Se revisa la funcionalidad completa de la API antes de pasar al siguiente paso.
 
 ## Estructura del Proyecto
 
